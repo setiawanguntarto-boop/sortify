@@ -12,24 +12,24 @@ const Header = () => {
         
         <div className="hidden md:flex items-center gap-6">
           <a href="#how-it-works" className="text-sm font-medium hover:text-primary transition-colors">
-            How It Works
+            Cara Kerja
           </a>
           <a href="#benefits" className="text-sm font-medium hover:text-primary transition-colors">
-            Benefits
+            Keuntungan
           </a>
           <a href="#demo" className="text-sm font-medium hover:text-primary transition-colors">
             Demo
           </a>
           <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
-            About
+            Tentang
           </a>
           <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
-            Contact
+            Kontak
           </a>
         </div>
         
         <Button variant="default" size="default">
-          Check My Points
+          Cek Poin Saya
         </Button>
       </nav>
     </header>

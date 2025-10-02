@@ -5,20 +5,20 @@ import iconVisible from "@/assets/icon-visible.png";
 const steps = [
   {
     number: "01",
-    title: "Recorded",
-    description: "Field officers log the waste via WhatsApp",
+    title: "Dicatat",
+    description: "Petugas lapangan mencatat sampah via WhatsApp",
     icon: iconRecorded,
   },
   {
     number: "02",
-    title: "Stored",
-    description: "Data is saved and your points increase automatically",
+    title: "Tersimpan",
+    description: "Data tersimpan dan poin Anda bertambah otomatis",
     icon: iconStored,
   },
   {
     number: "03",
-    title: "Visible",
-    description: "You can view your points and history anytime",
+    title: "Terlihat",
+    description: "Anda bisa lihat poin dan riwayat kapan saja",
     icon: iconVisible,
   },
 ];
@@ -29,10 +29,10 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-            How It Works
+            Cara Kerja
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Simple, transparent, and efficient waste management in three steps
+            Pengelolaan sampah yang sederhana, transparan, dan efisien dalam tiga langkah
           </p>
         </div>
         

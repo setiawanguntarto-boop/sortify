@@ -12,20 +12,20 @@ const Contact = () => {
             <div className="relative z-10 space-y-8">
               <div className="text-center space-y-4">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                  Ready to Get Started?
+                  Siap Memulai?
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  Join thousands of users who are making a difference through transparent waste management
+                  Bergabunglah dengan ribuan pengguna yang membuat perbedaan melalui pengelolaan sampah transparan
                 </p>
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="hero" size="xl" className="group">
-                  Check My Points
+                  Cek Poin Saya
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button variant="outline" size="xl">
-                  Contact Team
+                  Hubungi Tim
                 </Button>
               </div>
               

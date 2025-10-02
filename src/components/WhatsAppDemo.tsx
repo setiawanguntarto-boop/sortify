@@ -7,10 +7,10 @@ const WhatsAppDemo = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 space-y-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-            Try WhatsApp Bot Demo
+            Coba Demo Bot WhatsApp
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experience how easy it is to record and track waste contributions via WhatsApp
+            Rasakan kemudahan mencatat dan melacak kontribusi sampah via WhatsApp
           </p>
         </div>
         
@@ -86,7 +86,7 @@ const WhatsAppDemo = () => {
           
           <div className="mt-8 text-center">
             <Button variant="hero" size="lg" className="w-full sm:w-auto">
-              Try Full Demo on WhatsApp
+              Coba Demo Lengkap di WhatsApp
             </Button>
           </div>
         </div>

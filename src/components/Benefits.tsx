@@ -3,22 +3,22 @@ import { Eye, Smartphone, Heart } from "lucide-react";
 const benefits = [
   {
     icon: Eye,
-    title: "Transparent",
-    description: "All records and points are visible anytime",
+    title: "Transparan",
+    description: "Semua catatan dan poin terlihat kapan saja",
     color: "text-primary",
     bgColor: "bg-primary/10",
   },
   {
     icon: Smartphone,
-    title: "Simple",
-    description: "Field officers input the data, you only check results",
+    title: "Sederhana",
+    description: "Petugas lapangan input data, Anda tinggal cek hasilnya",
     color: "text-secondary",
     bgColor: "bg-secondary/10",
   },
   {
     icon: Heart,
-    title: "Meaningful",
-    description: "Every small contribution has a big impact on the environment",
+    title: "Bermakna",
+    description: "Setiap kontribusi kecil berdampak besar bagi lingkungan",
     color: "text-success",
     bgColor: "bg-success/10",
   },
@@ -30,10 +30,10 @@ const Benefits = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-            Why Choose Sortify?
+            Mengapa Pilih Sortify?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Making waste management accessible, transparent, and rewarding
+            Membuat pengelolaan sampah mudah diakses, transparan, dan bermanfaat
           </p>
         </div>
         

@@ -7,10 +7,10 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 space-y-4">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-              About Sortify
+              Tentang Sortify
             </h2>
             <p className="text-lg text-muted-foreground">
-              Empowering sustainable lifestyles through transparent waste management
+              Mendorong gaya hidup berkelanjutan melalui pengelolaan sampah yang transparan
             </p>
           </div>
           
@@ -20,9 +20,9 @@ const About = () => {
                 <Target className="w-8 h-8 text-primary" />
               </div>
               
-              <h3 className="text-2xl font-bold mb-4">Vision</h3>
+              <h3 className="text-2xl font-bold mb-4">Visi</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To encourage sustainable lifestyles with transparent waste-recording systems that create value for everyone.
+                Mendorong gaya hidup berkelanjutan dengan sistem pencatatan sampah yang transparan dan menciptakan nilai bagi semua pihak.
               </p>
             </div>
             
@@ -31,19 +31,19 @@ const About = () => {
                 <Rocket className="w-8 h-8 text-secondary" />
               </div>
               
-              <h3 className="text-2xl font-bold mb-4">Mission</h3>
+              <h3 className="text-2xl font-bold mb-4">Misi</h3>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <span className="text-primary font-bold">•</span>
-                  <span>Make waste sorting easier and measurable</span>
+                  <span>Membuat pemilahan sampah lebih mudah dan terukur</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary font-bold">•</span>
-                  <span>Provide incentives for participating households</span>
+                  <span>Memberikan insentif bagi rumah tangga yang berpartisipasi</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary font-bold">•</span>
-                  <span>Deliver accurate data for partners</span>
+                  <span>Menyajikan data akurat untuk mitra</span>
                 </li>
               </ul>
             </div>

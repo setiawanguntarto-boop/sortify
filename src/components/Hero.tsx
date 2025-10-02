@@ -11,40 +11,40 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full">
-              <span className="text-sm font-medium text-primary">Transparent Waste Management</span>
+              <span className="text-sm font-medium text-primary">Sistem Pengelolaan Sampah Transparan</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-              Turn Waste Into{" "}
+              Ubah Sampah Jadi{" "}
               <span className="gradient-primary bg-clip-text text-transparent">
-                Points
+                Poin
               </span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-              Your contribution is recorded transparently. Check your points and recycling history anytime.
+              Kontribusi Anda tercatat dengan transparan. Cek poin dan riwayat daur ulang Anda kapan saja.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="xl" className="group">
-                Check My Points
+                Cek Poin Saya
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="xl" className="group">
                 <Smartphone className="w-5 h-5" />
-                Try WhatsApp Bot
+                Coba Bot WhatsApp
               </Button>
             </div>
             
             <div className="flex items-center gap-8 pt-4">
               <div>
                 <div className="text-3xl font-bold text-primary">1000+</div>
-                <div className="text-sm text-muted-foreground">Active Users</div>
+                <div className="text-sm text-muted-foreground">Pengguna Aktif</div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div>
                 <div className="text-3xl font-bold text-secondary">50k+</div>
-                <div className="text-sm text-muted-foreground">Kg Recycled</div>
+                <div className="text-sm text-muted-foreground">Kg Didaur Ulang</div>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
                 src={heroImage} 
-                alt="Waste Management" 
+                alt="Pengelolaan Sampah" 
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
@@ -65,8 +65,8 @@ const Hero = () => {
                   <Smartphone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <div className="font-semibold">Quick & Easy</div>
-                  <div className="text-sm text-muted-foreground">Record via WhatsApp</div>
+                  <div className="font-semibold">Cepat & Mudah</div>
+                  <div className="text-sm text-muted-foreground">Catat via WhatsApp</div>
                 </div>
               </div>
             </div>
