@@ -83,12 +83,6 @@ const WhatsAppDemo = () => {
               </div>
             </div>
           </div>
-          
-          <div className="mt-8 text-center">
-            <Button variant="hero" size="lg" className="w-full sm:w-auto">
-              Coba Demo Lengkap di WhatsApp
-            </Button>
-          </div>
         </div>
       </div>
     </section>
