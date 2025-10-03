@@ -56,7 +56,7 @@ const Hero = () => {
                 alt="Pengelolaan Sampah" 
                 className="w-full h-auto object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
             </div>
             
             <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-xl border border-border max-w-xs">
