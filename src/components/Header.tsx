@@ -15,8 +15,8 @@ const Header = () => {
           <Link to="/cara-kerja" className="text-sm font-medium hover:text-primary transition-colors">
             Cara Kerja
           </Link>
-          <a href="/#benefits" className="text-sm font-medium hover:text-primary transition-colors">
-            Keuntungan
+          <a href="/#manfaat" className="text-sm font-medium hover:text-primary transition-colors">
+            Manfaat
           </a>
           <a href="/#demo" className="text-sm font-medium hover:text-primary transition-colors">
             Demo
