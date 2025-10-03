@@ -16,7 +16,7 @@ const Hero = () => {
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               Ubah Sampah Jadi{" "}
-              <span className="gradient-primary bg-clip-text text-transparent">
+              <span className="text-primary">
                 Poin
               </span>
             </h1>
