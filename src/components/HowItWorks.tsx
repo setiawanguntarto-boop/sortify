@@ -52,7 +52,7 @@ const HowItWorks = () => {
                   />
                 </div>
                 
-                <div className="text-6xl font-bold text-primary/10 mb-4">
+                <div className="text-6xl font-bold text-primary/30 mb-4">
                   {step.number}
                 </div>
                 
