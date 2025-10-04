@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
+import { ArrowLeft } from "lucide-react";
 import { Leaf, Star, Users, CheckCircle, Clock, Download, ChevronLeft, ChevronRight } from "lucide-react";
 import sortifyLogo from "@/assets/sortify-logo.png";
 
@@ -147,6 +148,12 @@ const DashboardPage = () => {
               <Clock className="w-5 h-5" />
               <span>{new Date().toLocaleString('id-ID', { timeZone: 'Asia/Jakarta' })}</span>
             </div>
+            <Link to="/">
+              <Button variant="outline" size="sm">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Kembali
+              </Button>
+            </Link>
           </div>
         </div>
       </header>
