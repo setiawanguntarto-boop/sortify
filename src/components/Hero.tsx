@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Smartphone } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 import heroUserImage from "@/assets/hero-sortify-user.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
+  return <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
       <div className="absolute inset-0 gradient-subtle opacity-50 -z-10" />
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,26 +35,12 @@ const Hero = () => {
               </Button>
             </div>
             
-            <div className="flex items-center gap-8 pt-4">
-              <div>
-                <div className="text-3xl font-bold text-primary">1000+</div>
-                <div className="text-sm text-muted-foreground">Pengguna Aktif</div>
-              </div>
-              <div className="h-12 w-px bg-border" />
-              <div>
-                <div className="text-3xl font-bold text-secondary">50k+</div>
-                <div className="text-sm text-muted-foreground">Kg Didaur Ulang</div>
-              </div>
-            </div>
+            
           </div>
           
           <div className="relative animate-slide-up">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src={heroUserImage} 
-                alt="Orang menggunakan Sortify di smartphone setelah memilah sampah" 
-                className="w-full h-auto object-cover"
-              />
+              <img src={heroUserImage} alt="Orang menggunakan Sortify di smartphone setelah memilah sampah" className="w-full h-auto object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
             </div>
             
@@ -74,8 +58,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
