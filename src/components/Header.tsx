@@ -27,11 +27,16 @@ const Header = () => {
           <a href="/#contact" className="text-sm font-medium hover:text-primary transition-colors">
             Kontak
           </a>
+          <Link to="/dashboard" className="text-sm font-medium hover:text-primary transition-colors">
+            Dashboard
+          </Link>
         </div>
         
-        <Button variant="default" size="default">
-          Cek Poin Saya
-        </Button>
+        <Link to="/dashboard">
+          <Button variant="default" size="default">
+            Cek Poin Saya
+          </Button>
+        </Link>
       </nav>
     </header>
   );
