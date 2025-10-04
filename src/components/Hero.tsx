@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Smartphone } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
+import heroUserImage from "@/assets/hero-sortify-user.jpg";
 
 const Hero = () => {
   return (
@@ -52,11 +53,11 @@ const Hero = () => {
           <div className="relative animate-slide-up">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src={heroImage} 
-                alt="Pengelolaan Sampah" 
+                src={heroUserImage} 
+                alt="Orang menggunakan Sortify di smartphone setelah memilah sampah" 
                 className="w-full h-auto object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
             </div>
             
             <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-xl border border-border max-w-xs">
