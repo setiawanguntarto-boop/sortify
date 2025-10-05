@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Smartphone } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-image.jpg";
 import heroUserImage from "@/assets/hero-sortify-user.jpg";
 const Hero = () => {
@@ -22,10 +23,12 @@ const Hero = () => {
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl">Kontribusi Anda tercatat dengan transparan. Cek poin dan riwayat Catat kontribusi Anda otomatis lewat WhatsApp. Dapatkan poin, pantau tabungan, dan bantu lingkungan tanpa repot.daur ulang Anda kapan saja.</p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl" className="group">
-                Cek Poin Saya
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              <Link to="/cek-poin">
+                <Button variant="hero" size="xl" className="group">
+                  Cek Poin Saya
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
               <Button variant="outline" size="xl" className="group">
                 <Smartphone className="w-5 h-5" />
                 Coba Bot WhatsApp
