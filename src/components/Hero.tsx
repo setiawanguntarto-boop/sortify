@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full">
-              <span className="text-sm font-medium text-primary">Sistem Pengelolaan Sampah Transparan</span>
+              <span className="text-sm font-medium text-primary">Terhubung langsung dengan Bank Sampah Anda</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
