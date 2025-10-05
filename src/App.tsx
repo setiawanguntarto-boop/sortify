@@ -9,6 +9,7 @@ import ManfaatPage from "./pages/ManfaatPage";
 import AboutPage from "./pages/AboutPage";
 import DashboardPage from "./pages/DashboardPage";
 import CekPoinPage from "./pages/CekPoinPage";
+import WhatsAppAgentPage from "./pages/WhatsAppAgentPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/tentang" element={<AboutPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/cek-poin" element={<CekPoinPage />} />
+          <Route path="/whatsapp-agent" element={<WhatsAppAgentPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

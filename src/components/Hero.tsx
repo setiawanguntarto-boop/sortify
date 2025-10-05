@@ -29,10 +29,12 @@ const Hero = () => {
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Button variant="outline" size="xl" className="group">
-                <Smartphone className="w-5 h-5" />
-                Coba Agent Whatsapp
-              </Button>
+              <Link to="/whatsapp-agent">
+                <Button variant="outline" size="xl" className="group">
+                  <Smartphone className="w-5 h-5" />
+                  Coba Agent Whatsapp
+                </Button>
+              </Link>
             </div>
             
             
