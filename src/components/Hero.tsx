@@ -19,9 +19,7 @@ const Hero = () => {
               <span className="text-primary">Dampak</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-              Kontribusi Anda tercatat dengan transparan. Cek poin dan riwayat daur ulang Anda kapan saja.
-            </p>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-xl">Kontribusi Anda tercatat dengan transparan. Cek poin dan riwayat Catat kontribusi Anda otomatis lewat WhatsApp. Dapatkan poin, pantau tabungan, dan bantu lingkungan tanpa repot.daur ulang Anda kapan saja.</p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="xl" className="group">
