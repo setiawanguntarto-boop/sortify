@@ -31,7 +31,7 @@ const Hero = () => {
               </Link>
               <Button variant="outline" size="xl" className="group">
                 <Smartphone className="w-5 h-5" />
-                Coba Bot WhatsApp
+                Coba Agent Whatsapp
               </Button>
             </div>
             
