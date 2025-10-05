@@ -123,13 +123,6 @@ All colors MUST be HSL.
     background: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
   }
   
-  .gradient-brand-text {
-    background: linear-gradient(120deg, #ECFDF5 0%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  
   .animate-fade-in {
     animation: fadeIn 0.6s ease-in-out;
   }

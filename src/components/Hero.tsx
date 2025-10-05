@@ -14,7 +14,7 @@ const Hero = () => {
               <span className="text-sm font-medium text-primary">Terhubung langsung dengan Bank Sampah Anda</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight gradient-brand-text">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               Ubah Sampah Jadi{" "}
               <span className="text-primary">Poin</span>, Ubah Kebiasaan Jadi{" "}
               <span className="text-primary">Dampak</span>
