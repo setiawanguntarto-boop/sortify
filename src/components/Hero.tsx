@@ -15,9 +15,8 @@ const Hero = () => {
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               Ubah Sampah Jadi{" "}
-              <span className="text-primary">
-                Poin
-              </span>
+              <span className="text-primary">Poin</span>, Ubah Kebiasaan Jadi{" "}
+              <span className="text-primary">Dampak</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
