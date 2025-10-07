@@ -46,17 +46,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
             </div>
             
-            <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-xl border border-border max-w-xs">
-              <div className="flex items-center gap-3">
-                <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Smartphone className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <div className="font-semibold">Cepat & Mudah</div>
-                  <div className="text-sm text-muted-foreground">Catat via WhatsApp</div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
