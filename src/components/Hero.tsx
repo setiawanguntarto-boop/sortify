@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Smartphone } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-image.jpg";
-import heroUserImage from "@/assets/hero-sortify-user.jpg";
+import heroUserImage from "@/assets/hero-sortify-user-new.jpg";
 const Hero = () => {
   return <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
       <div className="absolute inset-0 gradient-subtle opacity-50 -z-10" />
