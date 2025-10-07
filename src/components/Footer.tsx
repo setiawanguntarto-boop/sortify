@@ -1,13 +1,11 @@
 import sortifyLogo from "@/assets/sortify-logo.png";
-
 const Footer = () => {
-  return (
-    <footer className="bg-foreground text-background py-12">
+  return <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <img src={sortifyLogo} alt="Sortify" className="h-8 w-8 brightness-0 invert" />
+              
               <span className="text-xl font-bold">Sortify</span>
             </div>
             <p className="text-sm text-background/70">
@@ -53,8 +51,6 @@ const Footer = () => {
           <p>© 2025 Sortify. Hak cipta dilindungi.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
