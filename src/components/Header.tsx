@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           
-          <span className="text-xl font-bold">Sortify</span>
+          <span className="text-xl font-bold text-primary">Sortify</span>
         </Link>
         
         <div className="hidden md:flex items-center gap-6">
