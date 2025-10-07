@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               
-              <span className="text-xl font-bold">Sortify</span>
+              <span className="text-xl font-bold text-primary">Sortify</span>
             </div>
             <p className="text-sm text-background/70">
               Ubah sampah jadi poin. Kontribusi Anda berarti.
