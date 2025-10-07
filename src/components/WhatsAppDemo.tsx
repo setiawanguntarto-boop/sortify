@@ -14,10 +14,10 @@ const WhatsAppDemo = () => {
           </p>
         </div>
         
-        <div className="max-w-sm mx-auto">
+        <div className="max-w-md mx-auto">
           <div className="bg-gray-800 rounded-[40px] p-3 shadow-2xl">
             <div className="bg-black rounded-[32px] overflow-hidden">
-              <div className="flex flex-col h-[650px]" style={{ 
+              <div className="flex flex-col h-[580px]" style={{ 
                 backgroundColor: '#e5ddd5',
                 backgroundImage: 'url(https://i.pinimg.com/originals/85/ec/df/85ecdf1c3642145b0cae2c85ce8a95c0.jpg)',
                 backgroundSize: 'cover'
