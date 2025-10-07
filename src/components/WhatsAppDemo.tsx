@@ -7,7 +7,7 @@ const WhatsAppDemo = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 space-y-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-            Coba Demo Bot WhatsApp
+            Coba Demo Agent WhatsApp
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Rasakan kemudahan mencatat dan melacak kontribusi sampah via WhatsApp
@@ -33,7 +33,7 @@ const WhatsAppDemo = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-base">Sortify Bot</h3>
+                    <h3 className="font-semibold text-base">Sortify Agent</h3>
                     <p className="text-xs opacity-80">online</p>
                   </div>
                 </header>
